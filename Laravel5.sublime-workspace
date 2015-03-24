@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 440,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -44,20 +52,50 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/!London/Laravel5"
+		"/C/xampp/htdocs/!London/Laravel5",
+		"/C/xampp/htdocs/!London/Laravel5/app",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http/Controllers",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto/faker",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto/faker/src",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto/faker/src/Faker",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto/faker/src/Faker/Provider"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/!London/Laravel5/database/seeds/VehiclesSeed.php",
+		"/C/xampp/htdocs/!London/Laravel5/database/seeds/MakerSeed.php",
+		"/C/xampp/htdocs/!London/Laravel5/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Vehicle.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Maker.php",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/xampp/htdocs/!London/Laravel5/.env",
+		"/C/xampp/htdocs/!London/Laravel5/database/migrations/2015_03_20_113830_vehicles_table.php",
+		"/C/xampp/htdocs/!London/Laravel5/database/migrations/2015_03_20_113408_makers_table.php",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/DKIMSignerTest.php",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/nikic/php-parser/lib/PhpParser/Unserializer.php",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/WakeUpNoticesAsset.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/User.php",
+		"/C/xampp/htdocs/!London/Laravel5/config/mail.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/MyModel.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http/Controllers/MyController.php",
+		"/C/xampp/htdocs/!London/Laravel5/resources/views/hi.blade.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http/routes.php",
+		"/C/xampp/htdocs/!London/Laravel5/vendor/phpunit/phpunit-mock-objects/tests/MockObjectTest.php"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\xampp\\htdocs\\!London\\Laravel5\\vendor\\fzaninotto\\faker",
+			"C:\\xampp\\htdocs\\!London\\Laravel5"
 		]
 	},
 	"find_state":
@@ -65,6 +103,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"randomDigit",
+			"Faker",
+			"unsigned",
+			"belongsto"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -82,18 +124,47 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -125,7 +196,7 @@
 	"project": "Laravel5.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -133,6 +204,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"unsigned",
+				"vendor\\swiftmailer\\swiftmailer\\tests\\unit\\Swift\\Signers\\DKIMSignerTest.php"
+			],
+			[
+				"model",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			]
 		],
 		"width": 0.0
 	},
