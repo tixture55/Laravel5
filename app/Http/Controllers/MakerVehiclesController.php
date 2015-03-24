@@ -11,19 +11,9 @@ class MakerVehiclesController extends Controller
      *
      * @return Response
      */
-    public function index()
+    public function index($id)
     {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
-    public function create()
-    {
-        //
+        return 'Showing the Vehicles of ' . $id;
     }
 
     /**
@@ -43,17 +33,6 @@ class MakerVehiclesController extends Controller
      * @return Response
      */
     public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function edit($id)
     {
         //
     }
