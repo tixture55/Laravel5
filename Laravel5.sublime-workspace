@@ -3,16 +3,44 @@
 	{
 		"selected_items":
 		[
+			[
+				"vehi",
+				"$vehicleId〔variable〕"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/Http/routes.php",
+			"file": "app/Vehicle.php",
 			"settings":
 			{
-				"buffer_size": 440,
+				"buffer_size": 383,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+			"settings":
+			{
+				"buffer_size": 77144,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Maker.php",
+			"settings":
+			{
+				"buffer_size": 330,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/MakerVehiclesController.php",
+			"settings":
+			{
+				"buffer_size": 1716,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -56,22 +84,27 @@
 		"/C/xampp/htdocs/!London/Laravel5/app",
 		"/C/xampp/htdocs/!London/Laravel5/app/Http",
 		"/C/xampp/htdocs/!London/Laravel5/app/Http/Controllers",
-		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto",
-		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto/faker",
-		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto/faker/src",
-		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto/faker/src/Faker",
-		"/C/xampp/htdocs/!London/Laravel5/vendor/fzaninotto/faker/src/Faker/Provider"
+		"/C/xampp/htdocs/!London/Laravel5/database",
+		"/C/xampp/htdocs/!London/Laravel5/database/migrations",
+		"/C/xampp/htdocs/!London/Laravel5/database/seeds",
+		"/C/xampp/htdocs/!London/Laravel5/vendor"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/!London/Laravel5/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Maker.php",
+		"/C/xampp/htdocs/!London/Laravel5/database/migrations/2015_03_20_113830_vehicles_table.php",
+		"/C/xampp/htdocs/!London/Laravel5/database/migrations/2015_03_24_175524_makers_table.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http/routes.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Vehicle.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http/Controllers/MakerController.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http/Controllers/MakerVehiclesController.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http/Controllers/VehicleController.php",
+		"/C/xampp/htdocs/!London/Laravel5/app/Http/Controllers/MyController.php",
 		"/C/xampp/htdocs/!London/Laravel5/database/seeds/VehiclesSeed.php",
 		"/C/xampp/htdocs/!London/Laravel5/database/seeds/MakerSeed.php",
 		"/C/xampp/htdocs/!London/Laravel5/database/seeds/DatabaseSeeder.php",
-		"/C/xampp/htdocs/!London/Laravel5/app/Vehicle.php",
-		"/C/xampp/htdocs/!London/Laravel5/app/Maker.php",
-		"/C/xampp/htdocs/!London/Laravel5/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
 		"/C/xampp/htdocs/!London/Laravel5/.env",
-		"/C/xampp/htdocs/!London/Laravel5/database/migrations/2015_03_20_113830_vehicles_table.php",
 		"/C/xampp/htdocs/!London/Laravel5/database/migrations/2015_03_20_113408_makers_table.php",
 		"/C/xampp/htdocs/!London/Laravel5/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/DKIMSignerTest.php",
 		"/C/xampp/htdocs/!London/Laravel5/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php",
@@ -80,9 +113,7 @@
 		"/C/xampp/htdocs/!London/Laravel5/app/User.php",
 		"/C/xampp/htdocs/!London/Laravel5/config/mail.php",
 		"/C/xampp/htdocs/!London/Laravel5/app/MyModel.php",
-		"/C/xampp/htdocs/!London/Laravel5/app/Http/Controllers/MyController.php",
 		"/C/xampp/htdocs/!London/Laravel5/resources/views/hi.blade.php",
-		"/C/xampp/htdocs/!London/Laravel5/app/Http/routes.php",
 		"/C/xampp/htdocs/!London/Laravel5/vendor/phpunit/phpunit-mock-objects/tests/MockObjectTest.php"
 	],
 	"find":
@@ -124,28 +155,87 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/routes.php",
+					"file": "app/Vehicle.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 440,
+						"buffer_size": 383,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								440,
-								440
+								148,
+								148
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 77144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1470,
+								1480
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Maker.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -153,6 +243,36 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/Controllers/MakerVehiclesController.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -205,12 +325,12 @@
 		"selected_items":
 		[
 			[
-				"unsigned",
-				"vendor\\swiftmailer\\swiftmailer\\tests\\unit\\Swift\\Signers\\DKIMSignerTest.php"
-			],
-			[
 				"model",
 				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			],
+			[
+				"unsigned",
+				"vendor\\swiftmailer\\swiftmailer\\tests\\unit\\Swift\\Signers\\DKIMSignerTest.php"
 			]
 		],
 		"width": 0.0
@@ -239,7 +359,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 190.0,
+	"side_bar_width": 206.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
