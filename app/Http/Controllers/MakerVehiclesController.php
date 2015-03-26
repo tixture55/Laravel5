@@ -4,7 +4,6 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Maker;
-use App\Vehicle;
 
 class MakerVehiclesController extends Controller
 {
@@ -30,9 +29,9 @@ class MakerVehiclesController extends Controller
      *
      * @return Response
      */
-    public function store()
+    public function store(CreateMakerRequest $request)
     {
-        //
+        
     }
 
     /**
