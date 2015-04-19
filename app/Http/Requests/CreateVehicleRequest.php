@@ -30,7 +30,7 @@ class CreateVehicleRequest extends Request
         ];
     }
 
-     public function response(array $errors)
+    public function response(array $errors)
     {
         return response()->json(['message' => $errors, 'code' => 422], 422);
     }
